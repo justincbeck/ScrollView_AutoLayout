@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeM-Rk-AQZ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.74951528280000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="GWd-Gr-Xnq"/>
+                        <constraint firstAttribute="width" constant="320" id="IG7-r8-liH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXk-2k-5t6">
+                    <rect key="frame" x="0.0" y="700" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.74951528280000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Dzk-kN-jPl"/>
+                        <constraint firstAttribute="width" constant="320" id="mHG-tE-0j9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="eeM-Rk-AQZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S3E-cv-OQa"/>
+                <constraint firstItem="eeM-Rk-AQZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="STi-w0-w6q"/>
+                <constraint firstAttribute="bottom" secondItem="MXk-2k-5t6" secondAttribute="bottom" id="VTy-Gy-A4Q"/>
+                <constraint firstItem="MXk-2k-5t6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yr6-go-Vto"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
